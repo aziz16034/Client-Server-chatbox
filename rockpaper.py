@@ -1,6 +1,6 @@
 import random
 
-
+#Rock, Paper, Scissor project by Abdul Aziz, 6/8/2020
 def playgame():
 
  print("The Rules of Rock paper scissor game will be follows: \n"
@@ -61,8 +61,6 @@ def playgame():
         break
 
 
-
-
 def playagain():
  again = str(input("Type Q for quit or press another key to play again"))
 
@@ -72,26 +70,8 @@ def playagain():
 
  while again != 'Q':
 
-
-
-
-
-
-
-
-
-
-
-
-
      playgame()
      playagain()
-
-
-
-
-
-
 
 
 
